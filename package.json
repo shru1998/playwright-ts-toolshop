@@ -1,0 +1,32 @@
+{
+  "name": "playwright-ts-toolshop",
+  "version": "1.0.0",
+  "description": "End-to-End Web Automation Testing Framework built with Playwright and TypeScript using the Page Object Model (POM) pattern against Practice Software Testing (Toolshop v5).",
+  "private": true,
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:smoke": "npx playwright test --grep @smoke",
+    "report": "npx playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "automation-testing",
+    "e2e-testing",
+    "page-object-model",
+    "practicesoftwaretesting",
+    "toolshop"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.0.0",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.6.3"
+  }
+}
