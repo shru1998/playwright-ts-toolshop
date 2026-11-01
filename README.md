@@ -62,3 +62,5 @@ playwright-ts-toolshop/
 | :--- | :--- | :--- |
 | `tests/catalogCart.spec.ts` | **Catalog Filtering & Cart Persistence (`@smoke`)** | Navigates to **Categories > Hand Tools**, selects **Claw Hammer with Shock Reduction Grip**, increments quantity to `2`, adds to cart, verifies the header cart badge updates to `2`, and asserts both item name and spinbutton quantity inside the cart table. |
 | `tests/contactSupport.spec.ts` | **Customer Support Inquiry (`@smoke`)** | Navigates to `/contact` via the top bar, populates customer details, selects the `payments` subject dropdown, submits a valid inquiry message, and verifies the `.alert-success` confirmation banner (`"Thanks for your message! We will contact you shortly."`). |
+# playwright-ts-toolshop
+
